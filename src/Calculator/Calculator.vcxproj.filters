@@ -520,6 +520,8 @@
     <Page Include="Views\GraphingCalculator\GraphingNumPad.xaml">
       <Filter>Views\GraphingCalculator</Filter>
     </Page>
+    <Page Include="Controls\PreviewTagControl.xaml" />
+    <Page Include="EquationStylePanelControl.xaml" />
     <Page Include="$(MSBuildThisFileDirectory)DensityStyles\Compact.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -1555,6 +1557,36 @@
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\CalculatorAppList.targetsize-256_altform-unplated_devicefamily-colorfulunplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars2.gif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars6.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars7.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars9.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Views\starwars0.jpg">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

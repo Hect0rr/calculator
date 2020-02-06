@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="CalculatorApp.NumberPad"
+<UserControl x:Class="CalculatorApp.NumberPad"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:common="using:CalculatorApp.Common"
@@ -41,64 +41,84 @@
                                    Grid.Column="1"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num0Button"
-                                   ButtonId="Zero"/>
+                                   ButtonId="Zero">
+            <Image Source="starwars2.gif"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num1Button"
                                    x:Uid="num1Button"
                                    Grid.Row="2"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num1Button"
-                                   ButtonId="One"/>
+                                   ButtonId="One">
+            <Image Source="starwars.png"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num2Button"
                                    x:Uid="num2Button"
                                    Grid.Row="2"
                                    Grid.Column="1"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num2Button"
-                                   ButtonId="Two"/>
+                                   ButtonId="Two">
+            <Image Source="starwars3.png"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num3Button"
                                    x:Uid="num3Button"
                                    Grid.Row="2"
                                    Grid.Column="2"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num3Button"
-                                   ButtonId="Three"/>
+                                   ButtonId="Three">
+            <Image Source="starwars4.png"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num4Button"
                                    x:Uid="num4Button"
                                    Grid.Row="1"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num4Button"
-                                   ButtonId="Four"/>
+                                   ButtonId="Four">
+            <Image Source="starwars5.png"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num5Button"
                                    x:Uid="num5Button"
                                    Grid.Row="1"
                                    Grid.Column="1"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num5Button"
-                                   ButtonId="Five"/>
+                                   ButtonId="Five">
+            <Image Source="starwars6.jpg"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num6Button"
                                    x:Uid="num6Button"
                                    Grid.Row="1"
                                    Grid.Column="2"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num6Button"
-                                   ButtonId="Six"/>
+                                   ButtonId="Six">
+            <Image Source="starwars7.jpg"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num7Button"
                                    x:Uid="num7Button"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num7Button"
-                                   ButtonId="Seven"/>
+                                   ButtonId="Seven">
+            <Image Source="starwars8.png"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num8Button"
                                    x:Uid="num8Button"
                                    Grid.Column="1"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num8Button"
-                                   ButtonId="Eight"/>
+                                   ButtonId="Eight">
+            <Image Source="starwars9.jpg"/>
+        </controls:CalculatorButton>
         <controls:CalculatorButton x:Name="Num9Button"
                                    x:Uid="num9Button"
                                    Grid.Column="2"
                                    Style="{x:Bind Path=ButtonStyle, Mode=OneWay}"
                                    AutomationProperties.AutomationId="num9Button"
-                                   ButtonId="Nine"/>
+                                   ButtonId="Nine">
+            <Image Source="starwars0.jpg"/>
+        </controls:CalculatorButton>
 
         <!--
             This is the only button in all of the app that should ever have a explicit reference to KeyboardShortcutManager in Xaml
@@ -115,6 +135,8 @@
                                    common:KeyboardShortcutManager.Character="."
                                    AutomationProperties.AutomationId="decimalSeparatorButton"
                                    ButtonId="Decimal"
-                                   IsEnabled="{Binding IsDecimalEnabled}"/>
+                                   IsEnabled="{Binding IsDecimalEnabled}">
+            <Image Source="starwars.png"/>
+        </controls:CalculatorButton>
     </Grid>
 </UserControl>

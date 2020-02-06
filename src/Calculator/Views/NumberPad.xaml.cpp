@@ -40,8 +40,8 @@ NumberPad::NumberPad()
     const auto& localizationSettings = LocalizationSettings::GetInstance();
 
     this->DecimalSeparatorButton->Content = localizationSettings.GetDecimalSeparator();
-    this->Num0Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('0');
-    this->Num1Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('1');
+    //this->Num0Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('0');
+    /*this->Num1Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('1');
     this->Num2Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('2');
     this->Num3Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('3');
     this->Num4Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('4');
@@ -49,12 +49,12 @@ NumberPad::NumberPad()
     this->Num6Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('6');
     this->Num7Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('7');
     this->Num8Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('8');
-    this->Num9Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('9');
+    this->Num9Button->Content = localizationSettings.GetDigitSymbolFromEnUsDigit('9');*/
 }
 
 void NumberPad::OnCurrentRadixTypePropertyChanged(NumberBase /* oldValue */, NumberBase newValue)
 {
-    Num0Button->IsEnabled = true;
+    //Num0Button->IsEnabled = true;
     Num1Button->IsEnabled = true;
     Num2Button->IsEnabled = true;
     Num3Button->IsEnabled = true;
